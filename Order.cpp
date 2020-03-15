@@ -44,3 +44,51 @@ ORD_STATUS Order::getStatus() const
 	return status;
 }
 
+
+void Order::SetArrTime(int t)
+{
+	if(t>0)
+	ArrTime=t;
+}
+int Order::GetArrTime()const
+{
+return ArrTime;
+}
+void Order::SetServTime(int t)
+{
+    if(t>0)
+	ServTime=t;
+}
+int Order::GetServTime()const
+{
+return ServTime;
+}
+void Order::SetFinishTime(int t)
+{
+     if(t>0)
+	FinishTime=t;
+}
+int Order::GetFinishTime()const
+{
+return FinishTime;
+}
+void Order::SetOrder_Size(int s)
+{
+if(s>0)
+	Order_Size=s;
+}
+int Order::GetOrder_Size()  const
+{
+	return Order_Size;
+}
+void Order::SetOrder_Price(double p)
+{
+if(p>0)
+	Order_Price=p;
+}
+double Order::GetOrder_Price()  const
+{
+	return Order_Price;
+}
+
+

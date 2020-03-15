@@ -15,7 +15,8 @@ protected:
 	double totalMoney;	//Total order money
 
 	int ArrTime, ServTime, FinishTime;	//arrival, service start, and finish times
-	
+	int Order_Size;
+	double Order_Price;
 	
 	//
 	// TODO: Add More Data Members As Needed
@@ -35,6 +36,24 @@ public:
 	void setStatus(ORD_STATUS s);
 	ORD_STATUS getStatus() const;
 	
+	void SetArrTime(int t);
+	int GetArrTime()const;
+
+	void SetServTime(int t);
+	int GetServTime()const;
+
+	void SetFinishTime(int t);
+	int GetFinishTime()const;
+
+	void SetOrder_Size(int s);
+	int GetOrder_Size()const;
+
+	void SetOrder_Price(double p);
+	double GetOrder_Price()const;
+
+
+	
+		
 	//
 	// TODO: Add More Member Functions As Needed
 	//
